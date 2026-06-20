@@ -1,6 +1,11 @@
-def main():
-    print("Hello from labb1!")
 
+# Copied function from provided labb code
+def fahrenheit_to_celsius(t):
+    t_celsius = 0
+    return t_celsius
 
-if __name__ == "__main__":
-    main()
+svar = input('Ange en temperatur i Fahrenheit: ')
+t_fahrenheit = float(svar)
+t = fahrenheit_to_celsius(t_fahrenheit)
+print("Celcius: ", t)
+
