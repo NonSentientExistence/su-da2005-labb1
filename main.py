@@ -1,7 +1,8 @@
 
-# Copied function from provided labb code
+# Copied function from provided lab code
+# Added correct conversion F -> C
 def fahrenheit_to_celsius(t):
-    t_celsius = 0
+    t_celsius = (t - 32) * 5/9
     return t_celsius
 
 svar = input('Ange en temperatur i Fahrenheit: ')
