@@ -70,7 +70,7 @@ while(running == True):
     conv_to_user_unit = kelvin_to_temp(conv_to_kelvin, conv_to_unit)
 
     # Prints degrees input, the unit to convert from, 
-    # the degrees calculated in convert from kelvin rounded to 2 decimals and convert to unit.
+    # the degrees calculated in convert from kelvin and convert to unit.
     print(f'\n{temp_deg}{conv_from_unit}° motsvarar {conv_to_user_unit}{conv_to_unit}°\n')
 
 # Copied function from provided lab code
